@@ -9,9 +9,12 @@ class User
 public:
 	User();
 	~User();
-protected:
 	string user_name_;
+
 public:
-	void SetUserName(string name);
+	void SetUserName(string name,User* user_);
+	void DisplayUserName(User* user_);
+//protected:
+	
 };
 
